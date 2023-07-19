@@ -22,6 +22,7 @@ const Accordion = ({ items }) => {
 
         return (
             <div key={item.id}>
+                <div>Hello World</div>
                 <div className='flex justify-between p-3 bg-gray-50 border-b items-center cursor-pointer' onClick={() => handleClick(index)}>
                     {item.label}
                     {icon}
