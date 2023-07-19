@@ -44,6 +44,7 @@ const DropDown = ({ options, value, onChange }) => {
 
   return (
     <div ref={divEl} className='w-48 relative'>
+      <div>Github</div>
       <Panel className='flex justify-between items-center cursor-pointer' onClick={handleClick}>
         {value?.label || 'Selection...'}
         <GoChevronDown className='text-lg' />
